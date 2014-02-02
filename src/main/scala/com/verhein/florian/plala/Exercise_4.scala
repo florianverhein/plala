@@ -4,7 +4,7 @@ package com.verhein.florian.plala.exercise4
   * Given a bar graph, how much water could it hold.
   * O(n) solution.
   */
-object Exercise_4v1 {
+object Exercise_4 {
 
   def lastMax(heights : Array[Double]) = {
     val (_, maxIndex,maxHeight) = heights.foldLeft[(Int,Int,Double)]((-1,-1,0.0)){

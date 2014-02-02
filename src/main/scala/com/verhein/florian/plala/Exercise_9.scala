@@ -1,11 +1,9 @@
 package com.verhein.florian.plala
 
-
 /**
   * For an array of integers, give an algorithm to determine if there
-  * are three elements that sum to zero. 
-  * What are the time and space complexity? 
-  * Generalize to the case where the sum of k elements is 0 */
+  * are k elements that sum to zero. 
+  */
 object Exercise_9 {
 
   def sumOfk(k : Int, data : Array[Int]) = {
@@ -34,10 +32,6 @@ object Exercise_9 {
     //Pruning:
     // - if all > 0 or all < 0 then no solution
     // - any numbers > abs(sumK(data < 0))
-
     //then somOfK
   }
-
-
-
 }

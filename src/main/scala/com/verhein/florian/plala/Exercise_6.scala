@@ -3,8 +3,6 @@ package com.verhein.florian.plala
 
 object Sorting {
 
-
-
   def mergeSort[A : scala.reflect.ClassTag](x : Array[A])(implicit ord : Ordering[A]) = {
 
     //TODO swap x and y to avoid copying. 

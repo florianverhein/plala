@@ -97,15 +97,12 @@ object Exercise_5 {
     found.map(s => path(s))
   }
   
-
   def main(args : Array[String]) : Unit = {
     val s = args(0)
     println(isBalanced(s))
     println(findFlips(s))
     Unit
   }
-
-
 }
 
 

@@ -1,6 +1,5 @@
 package com.verhein.florian.plala
 
-
 object Exercise_10 {
 
   def fibonacci(n : Int) = {
@@ -48,8 +47,6 @@ object Exercise_10 {
     println(fibonacci(args(0).toInt))
     Unit
   }
-
-
 }
 
 
